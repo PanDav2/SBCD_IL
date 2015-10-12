@@ -1,0 +1,18 @@
+# Utilisation de GitHub #
+
+Quelques petites ressources qui peuvent s'avérer utiles :
+
+Méthode et astuces
+
+La méthode de branching que nous allons utiliser
+http://nvie.com/posts/a-successful-git-branching-model/
+
+Tuto (facultatif)
+Apprendre à se servir de GIT en command-line
+http://www.git-tower.com/learn/git/ebook/command-line/introduction
+
+Client GIT (facultatif)
+UnGit pour tout OS (gratuit)
+https://github.com/FredrikNoren/ungit
+GitTower seulement Mac (25euros)
+http://www.git-tower.com/
