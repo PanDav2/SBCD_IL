@@ -1,0 +1,43 @@
+UC06 Gérer Enchainement
+
+Pré-conditions : Un livre est actuellement ouvert, et Il existe au moins déjà un enchainement.
+Acteur : Auteur
+Scénario Nominal:
+        
+          1 : L'auteur clique sur l'enchainement entre deux Sections (matérialisé par un trait).
+          2 : Le système affiche un formulaire d'édition d'enchainement (avec les boutons suivants: section de départ, un champ pour la section d'arrivée et un champ pour les conditions)
+          3 : L'auteur modifie les champs et clique sur OK
+          4 : Le système enregistre les modifications et les affiche
+
+
+Alternatives :
+A0: L'auteur appuye sur le Bouton 'SupprimerEnchainement'.
+
+Exceptions :
+    
+         E01 : Annulation de l'auteur
+               En SN02, l'auteur peut cliquer sur le bouton "Annuler".
+               Fin d'interaction.UC06 Gérer Enchainement
+
+Pré-conditions : Un livre est actuellement ouvert, et Il existe au moins déjà un enchainement.
+Acteur : Auteur
+Scénario Nominal:
+        
+          1 : L'auteur clique sur l'enchainement entre deux Sections (matérialisé par un trait).
+          2 : Le système affiche un formulaire d'édition d'enchainement (avec les boutons suivants: section de départ, un champ pour la section d'arrivée et un champ pour les conditions)
+          3 : L'auteur modifie les champs et clique sur OK
+          4 : Le système enregistre les modifications et les affiche
+
+
+Alternatives :
+A0: L'auteur appuye sur le Bouton 'SupprimerEnchainement'.
+
+Exceptions :
+    
+         E01 : Annulation de l'auteur
+               En SN02, l'auteur peut cliquer sur le bouton "Annuler".
+               Fin d'interaction.
+ 
+Post-conditions : L'enchainement entre deux sections à bien été modifié.
+ 
+Post-conditions : L'enchainement entre deux sections à bien été modifié.
