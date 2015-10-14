@@ -1,7 +1,9 @@
 UC05 CréerEnchainement
 
 Pré-conditions : Un livre est actuellement ouvert, et il existe au moins deux sections dans le livre.
+
 Acteur : Auteur
+
 Scénario Nominal:
 1 : L'auteur clique sur le bouton 'Nouvel Enchainement' de la Section de départ de l'enchainement.
 2 : Le système affiche le formulaire de d'édition d'enchainement: un bouton 'AjouterSection', un bouton 'AjouterObjetPrerequis'.
@@ -14,10 +16,12 @@ Scénario Nominal:
 9: Le système créer l'enchainement avec les objets nécéssaires indiqués.      
  
 Alternatives :
-- A0: En SN7, si l'auteur clique sur oui, retour en SN2.
+- A0: Rajout objet prerequis:
+	En SN7, si l'auteur clique sur oui, retour en SN2.
 
 Exceptions :    
-         -E01 : Annulation de l'auteur
-               De SN02 à  SN08, l'auteur peut cliquer sur le bouton "Annuler".
-               Fin d'interaction.
+ -E01 : Annulation de l'auteur
+ 	De SN02 à  SN08, l'auteur peut cliquer sur le bouton "Annuler".
+	Fin d'interaction.
+
 Post-conditions : L'enchainement entre deux sections à bien été enregistré avec les objets nécéssaires.
