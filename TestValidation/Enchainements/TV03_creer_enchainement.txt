@@ -1,0 +1,12 @@
+Identifiant: TV03
+
+Titre: Creer un enchainement
+
+Contexte:
+- Un livre à été créé par l'auteur
+- Les sections 'DébutLivre' et 'SuiteLivre' ont étés crées.
+
+Entrée:
+- Nom de la Section d'arrivée: 'SuiteLivre', nom de l'enchainement: 'etApres'.
+
+
