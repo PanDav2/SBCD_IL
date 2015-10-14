@@ -1,0 +1,23 @@
+Identifiant: TV03
+
+Titre: Supprimer un enchainement
+
+Contexte:
+- Un livre à été créé par l'auteur
+- Les sections 'DébutLivre' et 'SuiteLivre' ont étés crées.
+- Un enchainement 'etApres' à été créé entre les deux sections précédentes.
+
+Entrée:
+
+
+Scénario:
+- L'auteur appuye sur le bouton 'Supprimer Enchainements'.
+- L'auteur selectionne l'enchainement 'etApres' parmi la liste déroulante des objets prérequis pour franchir cet enchainement.
+- L'auteur confirme la suppression de l'enchainement.
+
+Résultat:
+- Le système a bien supprimé l'enchainement entre les sections 'DébutLivre' et 'SuiteLivre'.
+
+
+Moyens de vérification:
+-Visuel: On peut vérifier si l'enchainement à bien été supprimé, on ne devrait plus voir la flèche entre les deux Sections.

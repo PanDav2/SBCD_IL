@@ -1,0 +1,25 @@
+Identifiant: TV03
+
+Titre: Creer un enchainement
+
+Contexte:
+- Un livre à été créé par l'auteur
+- Les sections 'DébutLivre' et 'SuiteLivre' ont étés crées.
+- L'objet 'Monnaie' à déjà été crée
+
+Entrée:
+- nom de l'enchainement: 'etApres', objet 'Monnaie'.
+
+Scénario:
+- L'auteur selectionne la section de début d'enchainement 'Début Livre'.
+- L'auteur entre le nom de l'enchainement 'etApres'
+- L'auteur appuye sur le bouton 'Ajouter Object Prérequis et selectionne l'objet 'Monnaie' dans la liste déroulante.
+- L'auteur confirme la création de l'enchainement.
+
+Résultat:
+- Le système a ajouté l'enchainement entre les sections 'DébutLivre' jusqu'à 'SuiteLivre'.
+- Le système a ajouté l'objet 'Monnaie' comme objet prérequis pour franchir l'enchainement.
+
+Moyens de vérification:
+-Visuel: On peut voir si un enchainement a été crée entre les deux sections (matérialisé par une flèche), et puis cliquer sur celui-ci pour faire apparaître l'objet 'Monnaie'.
+
