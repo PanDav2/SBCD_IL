@@ -1,0 +1,25 @@
+UC10 : Gérer Objets
+Pré-conditions : Un livre est actuellement ouvet
+
+Scénario Nominal :
+1 : L'auteur clique sur gérer objets
+2 : Le système affiche la liste des objets de ce livre
+3 : L'auteur clique sur ajouter un nouveau objet
+4 : Le système demande à l'auteur d'entrer le nom de l'objet
+5 : L'auteur renseigne le nom de l'objet et valide 
+6 : Le système teste si un objet de meme nom existe deja 
+7 : Le syteme cree l'objet 
+8 : Le système enregistre les modifications
+9 : Le système ferme la fenetre.
+
+Alternatives :
+A1 : En Sn3, l'auteur choisi de supprimer un objet de la liste. Le système supprime l'objet de la liste. Le système saute en Sn8.
+A2 : En Sn3, l'auteur choisi d'éditer un objet. Le système saute en Sn5 avec l'ancient nom de l'objet proposé comme nom.
+A3 : En Sn7, l'auteur choisi de poursuivre les modifications et saute en Sn3.
+
+Exceptions : 
+E1: Annulation
+En Sn3 ou SN5, l'auteur decide d'annuler la procedure en cliquant sur le bouton "Annuler". Fin d'interraction.
+
+
+Post-conditions : La liste des objets à été modifiée.
