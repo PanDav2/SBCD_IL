@@ -6,7 +6,7 @@ Acteur : Auteur
 
 Scénario Nominal:
 1 : L'auteur clique sur le bouton 'Nouvel Enchainement' de la Section de départ de l'enchainement.
-2 : Le système affiche le formulaire d'édition d'enchainement: un bouton 'Choisir Section d'Arrivee', un bouton 'AjouterObjetPrerequis'.
+2 : Le système affiche le formulaire d'édition d'enchainement: un bouton 'Choisir Sectionn d'Arrivee', un bouton 'AjouterObjetPrerequis'.
 3 : L'auteur clique sur 'Choisir Section d'arrivée'.
 4. Le système affiche une liste déroulante des sections d'arrivée disponibles (il n'y a pas la section active comme un enchainement ne se fait pas d'une section vers elle-même).
 5. L'auteur choisit la section d'arrivée souhaitée parmi la liste de sections proposées.

@@ -1,0 +1,25 @@
+Identifiant : TV1
+
+Titre : Modifier un enchainement
+
+Contexte :
+- L'auteur a ouvert ou chargé un livre (voir TVX et TVY)
+- Les sections 'Nage à Panam' et 'Ride à SF' ont été créées
+- Un enchainement 'Fun Pt 2' entre les sections 'Nage à Panam' et 'Ride à SF' a été créé
+
+Entrée :
+-Le nouveau nom de l'enchainement 'Cruising'
+
+
+Scénario :
+- L'auteur sélection l'enchainement à modifier
+- L'auteur entre le nouveau nom de l'enchainement 'Cruising'
+- L'auteur confirme la modification de l'enchainement 'Fun Pt 2' en 'Cruising'
+
+
+Résultat :
+- Le système a modifié l'enchainement 'Fun Pt 2' en 'Cruising'
+
+
+Moyen de vérification :
+- Visuel, l'enchainement 'Fun Pt 2' n'appartient plus à la liste des enchainements et un enchainement 'Cruising' appartient maintenant à la liste des enchainements
