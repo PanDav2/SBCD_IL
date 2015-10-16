@@ -4,22 +4,22 @@ Pré-conditions: Un livre est actuellement ouvert, et il existe au moins un ench
 
 Acteur: Auteur
 
-Scénario Nominal:
+Scénario Nominal: Suppression d'un Enchainement
 
-1. L'auteur appuye sur le bouton 'supprimerEnchainements' 
+1. L'auteur clique sur le bouton 'supprimerEnchainements' 
 2. Le système affiche un formulaire, où il y a un bouton 'toutSupprimer', et 'choisirEnchainementaSupprimer'. 
 3. L'auteur appuye sur le bouton 'choisir Enchainement a Supprimer'
 4. Le système affiche une liste déroulante des enchainements présents dans le Livre.
 5. L'auteur selectionne un enchainement à supprimer.
-6. Le système ajoute cet objet dans les enchainemnts à supprimer et propose de supprimer un autre enchainement. 
-7. L'auteur choisir l'opération non et valide la suppression de l'enchainement. 
+6. Le système ajoute cet objet dans les enchainements à supprimer.
+7. L'auteur valide la suppression de l'enchainement. 
 8. Le système ferme le formulaire et supprime le(s) enchainement(s).
 
 Alternatives:
-	-A0: Supprimer tous les enchainements
-	En SN03, l'auteur appuye sur le bouton 'tout Supprimer'. Retour en SN08.
+	-A0: Supprimer tous les Enchainements
+	En SN03, l'auteur appuye sur le bouton 'tout Supprimer'. Le système ajoute tout les Enchainements dans les Enchainements à supprimer. Retour en SN08.
 	
-	-A1: Supprimer un autre enchainement
+	-A1: Supprimer un autre Enchainement
 	EN SN06, l'auteur répond oui , retour en SN02.
 
 Exceptions:

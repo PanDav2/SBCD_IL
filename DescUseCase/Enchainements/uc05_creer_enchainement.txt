@@ -6,18 +6,18 @@ Acteur : Auteur
 
 Scénario Nominal:
 1 : L'auteur clique sur le bouton 'Nouvel Enchainement' de la Section de départ de l'enchainement.
-2 : Le système affiche le formulaire de d'édition d'enchainement: un bouton 'AjouterSection', un bouton 'AjouterObjetPrerequis'.
-3 : L'auteur appuye sur Section d'arrivée.
+2 : Le système affiche le formulaire d'édition d'enchainement: un bouton 'Choisir Section d'Arrivee', un bouton 'AjouterObjetPrerequis'.
+3 : L'auteur clique sur 'Choisir Section d'arrivée'.
 4. Le système affiche une liste déroulante des sections d'arrivée disponibles (il n'y a pas la section active comme un enchainement ne se fait pas d'une section vers elle-même).
 5. L'auteur choisit la section d'arrivée souhaitée parmi la liste de sections proposées.
-6: L'auteur appuye sur le bouton 'AjouterObjetPrerequis'.
-7. Le système ajoute l'Objet en question dans la liste des objets prérequis, et demande si l'auteur souhaite rajouter un autre Objet.
-8: L'auteur choisit l'option non et valide l'enchainement.
+6: L'auteur clique sur le bouton 'AjouterObjetPrerequis'.
+7. Le système ajoute l'Objet en question dans la liste des objets prérequis.
+8: L'auteur valide l'enchainement.
 9: Le système créer l'enchainement avec les objets nécéssaires indiqués.      
  
 Alternatives :
 - A0: Rajout objet prerequis:
-	En SN7, si l'auteur clique sur oui, retour en SN2.
+	En SN7, l'auteur choisis de rajouter un objet. Retour en SN2.
 
 Exceptions :    
  -E01 : Annulation de l'auteur

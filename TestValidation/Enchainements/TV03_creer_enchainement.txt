@@ -12,8 +12,8 @@ Entrée:
 
 Scénario:
 - L'auteur selectionne la section de début d'enchainement 'Début Livre'.
-- L'auteur entre le nom de l'enchainement 'etApres'
-- L'auteur appuye sur le bouton 'Ajouter Object Prérequis et selectionne l'objet 'Monnaie' dans la liste déroulante.
+- L'auteur entre le nom de l'enchainement 'etApres'.
+- L'auteur clique sur le bouton 'Ajouter Object Prérequis et selectionne l'objet 'Monnaie' dans la liste déroulante.
 - L'auteur confirme la création de l'enchainement.
 
 Résultat:
