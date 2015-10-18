@@ -1,0 +1,24 @@
+Identifiant : TV1
+
+Titre : Ajouter un objet
+
+Contexte :
+- L'auteur a ouvert ou chargé un livre (voir TVX et TVY)
+- Les objets "Sandwich au poulet" a été créé
+
+Entrée :
+-
+
+
+Scénario :
+- L'auteur ouvre la liste des objets
+- L'auteur clique sur le bouton ajouter un objet
+- L'auteur entre le nom "Sandich au poulet" pour le nouvel objet
+- L'auteur voit s'afficher le message "Cet objet existe déjà"
+
+Résultat :
+- SL'objet n'a pas été ajouté à la liste d'objet  
+
+
+Moyen de vérification :
+- Visuel

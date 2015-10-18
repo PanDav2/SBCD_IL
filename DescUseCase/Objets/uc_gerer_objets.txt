@@ -13,13 +13,21 @@ Scénario Nominal :
 9 : Le système ferme la fenetre.
 
 Alternatives :
-A1 : En Sn3, l'auteur choisi de supprimer un objet de la liste. Le système supprime l'objet de la liste. Le système saute en Sn8.
-A2 : En Sn3, l'auteur choisi d'éditer un objet. Le système saute en Sn5 avec l'ancient nom de l'objet proposé comme nom.
-A3 : En Sn7, l'auteur choisi de poursuivre les modifications et saute en Sn3.
+
+A1 : Suppression d'un objet
+    En Sn3, l'auteur clique sur un objet de la liste puis clique sur "Supprimer l'objet" 
+    Le système supprime l'objet de la liste.
+    Retour en SN8.
+
+A2 : Edition d'un objet 
+   En Sn3, l'auteur clique sur un objet de la liste puis clique sur "Editer l'objet" 
+   Le système saute en SN5 avec l'ancien nom de l'objet proposé comme nom.
+
 
 Exceptions : 
 E1: Annulation
-En Sn3 ou SN5, l'auteur decide d'annuler la procedure en cliquant sur le bouton "Annuler". Fin d'interraction.
+    En Sn3 ou SN5, l'auteur decide d'annuler la procedure en cliquant sur le bouton "Annuler". 
+    Fin d'interraction.
 
 
 Post-conditions : La liste des objets à été modifiée.
